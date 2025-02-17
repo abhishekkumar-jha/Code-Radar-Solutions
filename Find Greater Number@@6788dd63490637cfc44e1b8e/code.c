@@ -1,14 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a,b,c;
-    if (a>b,c) {
+    int a,b;
+    if (a>b) {
         printf("%d\n",&a);
     }
-    else if (b>a,c) {
-        printf("%d\n",&b);
-    }
     else {
-        printf("%d\n",&c);
+        printf("%d\n",&b);
     }
     return 0;
 }
