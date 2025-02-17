@@ -9,5 +9,4 @@ int main() {
         printf("%d odd", n);
     }
     return 0;
-    
 }
