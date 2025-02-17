@@ -4,9 +4,9 @@ int main() {
     printf("");
     scanf("%d", &number);
     if(number % 2 == 0) {
-        printf("%d even");
+        printf("%d");
     } else{
-        printf("%d odd");
+        printf("%d");
     }
     return 0;
 }
