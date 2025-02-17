@@ -7,10 +7,10 @@ int main() {
 
   if (number > 0) {
     printf("Positive\n"); 
-  } else if (number = 0) {
-    printf("Zero\n");  
+  } else if (number < 0) {
+    printf("Negative\n");  
   } else {
-    printf("Negative\n");
+    printf("zero\n");
   }
 
   return 0;
