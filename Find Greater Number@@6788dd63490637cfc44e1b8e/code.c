@@ -2,13 +2,13 @@
 int main(){
     int a,b,c;
     if (a>b,c) {
-        printf("&a\n");
+        printf("%d\n",a);
     }
     else if (b>a,c) {
-        printf("&b\n");
+        printf("%d\n",b);
     }
     else {
-        printf("&c\n");
+        printf("%d\n",c);
     }
     return 0;
 }
