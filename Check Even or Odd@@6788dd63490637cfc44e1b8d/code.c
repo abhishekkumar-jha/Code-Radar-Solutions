@@ -6,5 +6,5 @@ int main() {
     } else{
         printf("%d odd", n);
     }
-    return 0;
+    
 }
