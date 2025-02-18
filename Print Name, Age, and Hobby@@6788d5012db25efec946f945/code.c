@@ -13,9 +13,9 @@ int main() {
    
     scanf("%s", hobby);
 
-    printf("\nName: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Hobby: %s\n", hobby);
+    printf("\nName: %s\n");
+    printf("Age: %d\n");
+    printf("Hobby: %s\n");
 
     return 0;
 }
