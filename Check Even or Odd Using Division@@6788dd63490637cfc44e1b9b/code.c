@@ -3,7 +3,7 @@ int amin(){
     int n;
     scanf("%d", &n);
     if(n%2==0){
-        print("Even");
+        printf("Even");
     }
     else{
         printf("Odd");
