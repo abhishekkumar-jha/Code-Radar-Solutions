@@ -9,7 +9,7 @@ int main() {
         case 3: printf("Average"); break;
         case 4: printf("Below Average"); break;
         case 5: printf("Fail"); break;
-        default: printf("Invalid Grade\n"); break;
+        default: printf("Invalid grade\n"); break;
     }
 
     return 0;
