@@ -6,7 +6,7 @@ int main() {
         printf("Divisible\n");
     }
     else if ((num % 5 != 0) && (num % 11 == 0)) {
-        printf("Not Divisible\n");
+        printf("Divisible\n");
     }
     else {
         printf("Not Divisible\n");
