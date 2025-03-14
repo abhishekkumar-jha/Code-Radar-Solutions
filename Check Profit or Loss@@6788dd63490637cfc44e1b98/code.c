@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int cp,sp;
+    int sp,cp;
     scanf("%d %d", &sp,&cp);
     if(sp>cp){
         printf("Profit");
