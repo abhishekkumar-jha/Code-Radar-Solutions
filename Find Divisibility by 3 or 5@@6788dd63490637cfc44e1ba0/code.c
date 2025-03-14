@@ -8,7 +8,7 @@ int main(){
     else if(n%3==0){
         printf("Divisible by 3");
     }
-    if(n%50)=={
+    if(n%5==0){
         printf("Divisible by 5");
     }
     else{
