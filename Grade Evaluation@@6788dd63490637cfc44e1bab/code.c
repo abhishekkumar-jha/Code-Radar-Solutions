@@ -1,16 +1,24 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     char ch;
-    scanf("%c", &ch);
-    switch(ch) {
-        case 1: printf('Excellent'); break;
-        case 2: printf('Good'); break;
-        case 3: printf('Average'); break;
-        case 4: printf('Below Average'); break;
-        case 5: printf('Fail'); break;
-        default: printf('Invalid grade'); break;
+    scanf("%c",&ch);
+    if(ch=='A'){
+        printf("Excellent");
     }
-
+    else if(ch=='B'){
+        printf("Good");
+    }
+    if(ch=='C'){
+        printf("Average");
+    }
+    if(ch=='D'){
+        printf("Below Average");
+    }
+    if(ch=='F'){
+        printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
+    }
     return 0;
 }
