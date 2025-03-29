@@ -20,7 +20,7 @@ void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
     }
 }
 
-int main() {
+int main() { 
     int n, m;
     
     scanf("%d", &n);
@@ -33,11 +33,10 @@ int main() {
     
     int result[200000];
     
-    
+    // Call trackPlayerRanks function
     trackPlayerRanks(ranked, n, player, m, result);
     
-    
+    // Output rank after each game
     for (int i = 0; i < m; i++) printf("%d\n", result[i]);
     
     return 0;
-}
